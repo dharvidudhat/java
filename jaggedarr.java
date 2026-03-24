@@ -1,0 +1,15 @@
+//jagged array
+import java.util.Arrays;
+class jaggedarr
+{
+	public static void main(String[] args)
+	{
+		int[][] arr=new int[2][];
+		arr[0]=new int[3];
+		arr[0][0]=10;
+		arr[0][1]=20;
+		arr[1]=new int[2];
+		arr[1][0]=30;
+		System.out.println(Arrays.deepToString(arr));
+	}
+}

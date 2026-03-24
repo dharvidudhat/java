@@ -1,0 +1,4 @@
+//polymerphism
+class son
+{
+}
